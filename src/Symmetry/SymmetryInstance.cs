@@ -2,9 +2,6 @@
 {
     public static class SymmetryInstance
     {
-        public static ISymmetry Create(SymmetryConfiguration configuration)
-        {
-            return new Symmetry();
-        }
+        public static ISymmetry Create(SymmetryConfiguration configuration) => new Symmetry(configuration);
     }
 }
