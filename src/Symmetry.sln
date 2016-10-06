@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{54
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Symmetry.Examples.Console", "Examples\Symmetry.Examples.Console\Symmetry.Examples.Console.xproj", "{0317B7B4-30FA-4D2E-B2D0-E42DAFDE6E8B}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Symmetry.MongoDb", "Extensions\Symmetry.MongoDb\Symmetry.MongoDb.xproj", "{61CAA12B-ECD3-4B38-8636-86440B3C630E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{3F5D27EA-7DBF-48AF-A24D-9478DBF8D9F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,11 +33,16 @@ Global
 		{0317B7B4-30FA-4D2E-B2D0-E42DAFDE6E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0317B7B4-30FA-4D2E-B2D0-E42DAFDE6E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0317B7B4-30FA-4D2E-B2D0-E42DAFDE6E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61CAA12B-ECD3-4B38-8636-86440B3C630E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CAA12B-ECD3-4B38-8636-86440B3C630E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CAA12B-ECD3-4B38-8636-86440B3C630E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CAA12B-ECD3-4B38-8636-86440B3C630E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0317B7B4-30FA-4D2E-B2D0-E42DAFDE6E8B} = {54B4C50B-2A03-4C6A-8BDF-FD49C31CD7E7}
+		{61CAA12B-ECD3-4B38-8636-86440B3C630E} = {3F5D27EA-7DBF-48AF-A24D-9478DBF8D9F2}
 	EndGlobalSection
 EndGlobal

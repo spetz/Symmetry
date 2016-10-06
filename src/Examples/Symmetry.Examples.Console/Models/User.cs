@@ -1,15 +1,18 @@
-﻿using System;
+﻿using MongoDB.Bson.Serialization.Attributes;
 
 namespace Symmetry.Examples.Console.Models
 {
+    [BsonIgnoreExtraElements]
     public class User
     {
-        public Guid Id { get; }
-        public string Name { get; }
+        public string Name { get; protected set; }
 
-        public User(Guid id, string name)
+        protected User()
         {
-            Id = id;
+        }
+
+        public User(string name)
+        {
             Name = name;
         }
     }
